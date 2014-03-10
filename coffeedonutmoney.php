@@ -1,7 +1,7 @@
 <?php
 /* 你好. Hello.
 CoffeeDonutMoney. 咖啡甜甜圈錢.
-2014-02-22
+2014-03-09
 MIT license.
 MIT 授權規定.
 
@@ -23,6 +23,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 /*
  * parts gotten from phpLiteAdmin v1.0
  */
+ 
+// this php script expects a database coffeedonutmoney.sqlite in the same directory, with a table in it to hold the data.
+// the query to create table in sqlite database: 
+// CREATE TABLE coffeedonutmoney(date TEXT, balance TEXT, description TEXT)
  
 //Edit the following variables to suit your needs
 
