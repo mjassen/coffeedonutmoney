@@ -1,6 +1,11 @@
 <?php
 /* 你好. Hello.
 CoffeeDonutMoney. 咖啡甜甜圈錢.
+
+README:
+This is a php script to track how much money I spend on coffee and donuts.  might work for tracking the same for tea and biscuits.  Every time i spend some cash i enter the new cash balance and the description of the purchase or the deposit.
+The html insert form part of the script inserts into the sqlite database table.  the html table display part of the script pulls the data from the sqlite database table and prints it on the web page.
+
 2014-03-09
 MIT license.
 MIT 授權規定.
